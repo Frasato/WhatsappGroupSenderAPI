@@ -43,9 +43,9 @@ mvn spring-boot:run
 ## 📡 Endpoints da API
 
 #### 🔹 GET /api/whatsapp/qrcode
-Retorna o QR Code gerado para conexão com o WhatsApp Web.
+Retorna o QR Code gerado para conexão com o WhatsApp Web. Esse QR Code também é gerado no terminal assim que a aplicação é iniciada.
 ```json
-"data:image/png;base64,..."
+"2@tPFsBMszJmhT4pNtf0TzYTdXEd4Nn0Ljj48RPZDvDvjyEUSLEIG+dD6+HrxHYjHkfhEdj..."
 ```
 
 #### 🔹 GET /api/whatsapp/groups
